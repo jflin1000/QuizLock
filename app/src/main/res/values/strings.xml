@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">学习锁屏</string>
+    <string name="service_channel">学习锁屏服务</string>
+    <string name="service_running">学习锁屏运行中（每%1$d分钟一题）</string>
+    <string name="enter_pin">请输入家长密码</string>
+    <string name="pin_wrong">密码错误</string>
+    <string name="settings_title">家长设置</string>
+    <string name="interval_label">弹题间隔（分钟）</string>
+    <string name="enabled_label">启用弹题</string>
+    <string name="change_pin">修改密码</string>
+    <string name="save">保存</string>
+    <string name="start_service">启动服务</string>
+    <string name="stop_service">停止服务</string>
+    <string name="quiz_title">答对一题才能继续观看</string>
+    <string name="correct">答对了！继续观看吧</string>
+    <string name="wrong">答错了，再来一题</string>
+</resources>

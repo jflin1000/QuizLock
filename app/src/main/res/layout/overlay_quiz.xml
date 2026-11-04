@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/overlay_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EE0D1B2A"
+    android:focusable="true"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="900dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="32dp"
+        android:background="@drawable/card_bg">
+
+        <TextView
+            android:id="@+id/tv_subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/accent"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:text="数学口算"/>
+
+        <TextView
+            android:id="@+id/tv_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/text_secondary"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:text="@string/quiz_title"/>
+
+        <TextView
+            android:id="@+id/tv_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/text_primary"
+            android:textSize="36sp"
+            android:gravity="center"
+            android:lineSpacingExtra="8dp"
+            android:text="题目"/>
+
+        <Button
+            android:id="@+id/btn_opt0"
+            style="@style/QuizOption"
+            android:text="A"/>
+
+        <Button
+            android:id="@+id/btn_opt1"
+            style="@style/QuizOption"
+            android:text="B"/>
+
+        <Button
+            android:id="@+id/btn_opt2"
+            style="@style/QuizOption"
+            android:text="C"/>
+
+        <Button
+            android:id="@+id/btn_opt3"
+            style="@style/QuizOption"
+            android:text="D"/>
+
+        <TextView
+            android:id="@+id/tv_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/correct_green"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:visibility="gone"/>
+    </LinearLayout>
+</FrameLayout>

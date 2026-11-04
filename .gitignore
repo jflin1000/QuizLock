@@ -1,0 +1,40 @@
+# Gradle
+.gradle/
+**/build/
+build/
+
+# Local SDK path (machine-specific)
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+.navigation/
+captures/
+
+# Built artifacts
+*.apk
+*.ap_
+*.aab
+*.aar
+*.dex
+*.class
+
+# Native build
+.externalNativeBuild/
+.cxx/
+
+# Signing material — never commit keystores
+*.keystore
+*.jks
+*.p12
+
+# Logs and profiling
+*.log
+*.hprof
+
+# OS junk
+.DS_Store
+Thumbs.db

@@ -1,0 +1,223 @@
+package com.lin.quizlock;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Random;
+
+/** PEP 小学高年级常用词汇，中英互译选择题 */
+public final class EnglishBank {
+    private EnglishBank() {}
+    private static final String[][] WORDS = {
+        {"apple", "苹果"},
+        {"banana", "香蕉"},
+        {"orange", "橙子"},
+        {"grape", "葡萄"},
+        {"watermelon", "西瓜"},
+        {"school", "学校"},
+        {"teacher", "老师"},
+        {"student", "学生"},
+        {"classroom", "教室"},
+        {"homework", "作业"},
+        {"book", "书"},
+        {"pencil", "铅笔"},
+        {"eraser", "橡皮"},
+        {"ruler", "尺子"},
+        {"bag", "书包"},
+        {"father", "父亲"},
+        {"mother", "母亲"},
+        {"brother", "兄弟"},
+        {"sister", "姐妹"},
+        {"family", "家庭"},
+        {"friend", "朋友"},
+        {"happy", "高兴的"},
+        {"sad", "伤心的"},
+        {"angry", "生气的"},
+        {"tired", "疲倦的"},
+        {"big", "大的"},
+        {"small", "小的"},
+        {"long", "长的"},
+        {"short", "短的"},
+        {"tall", "高的"},
+        {"red", "红色"},
+        {"blue", "蓝色"},
+        {"green", "绿色"},
+        {"yellow", "黄色"},
+        {"white", "白色"},
+        {"black", "黑色"},
+        {"Monday", "星期一"},
+        {"Tuesday", "星期二"},
+        {"Wednesday", "星期三"},
+        {"Thursday", "星期四"},
+        {"Friday", "星期五"},
+        {"Saturday", "星期六"},
+        {"Sunday", "星期日"},
+        {"today", "今天"},
+        {"tomorrow", "明天"},
+        {"yesterday", "昨天"},
+        {"morning", "早晨"},
+        {"afternoon", "下午"},
+        {"evening", "晚上"},
+        {"night", "夜晚"},
+        {"spring", "春天"},
+        {"summer", "夏天"},
+        {"autumn", "秋天"},
+        {"winter", "冬天"},
+        {"weather", "天气"},
+        {"sunny", "晴朗的"},
+        {"rainy", "下雨的"},
+        {"cloudy", "多云的"},
+        {"windy", "有风的"},
+        {"snowy", "下雪的"},
+        {"dog", "狗"},
+        {"cat", "猫"},
+        {"bird", "鸟"},
+        {"fish", "鱼"},
+        {"rabbit", "兔子"},
+        {"tiger", "老虎"},
+        {"panda", "熊猫"},
+        {"monkey", "猴子"},
+        {"elephant", "大象"},
+        {"lion", "狮子"},
+        {"eat", "吃"},
+        {"drink", "喝"},
+        {"sleep", "睡觉"},
+        {"run", "跑"},
+        {"walk", "走"},
+        {"jump", "跳"},
+        {"read", "读"},
+        {"write", "写"},
+        {"listen", "听"},
+        {"speak", "说"},
+        {"play", "玩"},
+        {"sing", "唱"},
+        {"dance", "跳舞"},
+        {"swim", "游泳"},
+        {"draw", "画画"},
+        {"water", "水"},
+        {"milk", "牛奶"},
+        {"bread", "面包"},
+        {"rice", "米饭"},
+        {"noodle", "面条"},
+        {"egg", "鸡蛋"},
+        {"meat", "肉"},
+        {"chicken", "鸡肉"},
+        {"vegetable", "蔬菜"},
+        {"fruit", "水果"},
+        {"hospital", "医院"},
+        {"doctor", "医生"},
+        {"nurse", "护士"},
+        {"park", "公园"},
+        {"zoo", "动物园"},
+        {"library", "图书馆"},
+        {"museum", "博物馆"},
+        {"cinema", "电影院"},
+        {"supermarket", "超市"},
+        {"restaurant", "餐馆"},
+        {"bus", "公共汽车"},
+        {"train", "火车"},
+        {"plane", "飞机"},
+        {"bike", "自行车"},
+        {"car", "小汽车"},
+        {"ship", "轮船"},
+        {"taxi", "出租车"},
+        {"subway", "地铁"},
+        {"station", "车站"},
+        {"airport", "机场"},
+        {"head", "头"},
+        {"eye", "眼睛"},
+        {"ear", "耳朵"},
+        {"nose", "鼻子"},
+        {"mouth", "嘴巴"},
+        {"hand", "手"},
+        {"foot", "脚"},
+        {"arm", "胳膊"},
+        {"leg", "腿"},
+        {"face", "脸"},
+        {"jacket", "夹克"},
+        {"shirt", "衬衫"},
+        {"dress", "连衣裙"},
+        {"skirt", "裙子"},
+        {"pants", "裤子"},
+        {"shoes", "鞋子"},
+        {"hat", "帽子"},
+        {"socks", "袜子"},
+        {"coat", "外套"},
+        {"scarf", "围巾"},
+        {"China", "中国"},
+        {"Beijing", "北京"},
+        {"English", "英语"},
+        {"Chinese", "汉语"},
+        {"America", "美国"},
+        {"beautiful", "美丽的"},
+        {"interesting", "有趣的"},
+        {"difficult", "困难的"},
+        {"easy", "容易的"},
+        {"important", "重要的"},
+        {"always", "总是"},
+        {"usually", "通常"},
+        {"often", "经常"},
+        {"sometimes", "有时"},
+        {"never", "从不"},
+        {"because", "因为"},
+        {"before", "在…之前"},
+        {"after", "在…之后"},
+        {"between", "在…之间"},
+        {"beside", "在…旁边"},
+        {"window", "窗户"},
+        {"door", "门"},
+        {"floor", "地板"},
+        {"wall", "墙壁"},
+        {"desk", "课桌"},
+        {"chair", "椅子"},
+        {"computer", "电脑"},
+        {"phone", "电话"},
+        {"clock", "时钟"},
+        {"picture", "图画"},
+        {"birthday", "生日"},
+        {"holiday", "假期"},
+        {"festival", "节日"},
+        {"Christmas", "圣诞节"},
+        {"New Year", "新年"},
+        {"strong", "强壮的"},
+        {"weak", "虚弱的"},
+        {"fast", "快的"},
+        {"slow", "慢的"},
+        {"clever", "聪明的"},
+        {"kind", "友好的"},
+        {"polite", "有礼貌的"},
+        {"brave", "勇敢的"},
+        {"quiet", "安静的"},
+        {"noisy", "吵闹的"},
+    };
+
+    public static Question next(Random rnd) {
+        int i = rnd.nextInt(WORDS.length);
+        String en = WORDS[i][0];
+        String zh = WORDS[i][1];
+        boolean enToZh = rnd.nextBoolean();
+        String prompt;
+        String correct;
+        List<String> pool = new ArrayList<>();
+        if (enToZh) {
+            prompt = "“" + en + "” 的中文意思是？";
+            correct = zh;
+            for (String[] w : WORDS) if (!w[1].equals(zh)) pool.add(w[1]);
+        } else {
+            prompt = "“" + zh + "” 的英文是？";
+            correct = en;
+            for (String[] w : WORDS) if (!w[0].equals(en)) pool.add(w[0]);
+        }
+        Collections.shuffle(pool, rnd);
+        List<String> opts = new ArrayList<>();
+        opts.add(correct);
+        for (String p : pool) {
+            if (opts.size() >= 4) break;
+            if (!opts.contains(p)) opts.add(p);
+        }
+        Collections.shuffle(opts, rnd);
+        return new Question("英语单词", prompt, opts.toArray(new String[0]), opts.indexOf(correct));
+    }
+
+    public static int size() { return WORDS.length; }
+}

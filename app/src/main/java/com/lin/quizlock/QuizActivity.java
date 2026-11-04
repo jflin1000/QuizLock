@@ -51,6 +51,7 @@ public class QuizActivity extends AppCompatActivity {
                 findViewById(R.id.btn_opt3)
         };
 
+        BankRepository.ensureLoaded(this);
         bindQuestion(QuestionBank.next());
     }
 

@@ -90,6 +90,53 @@
             android:layout_marginBottom="32dp"
             android:focusable="true"/>
 
+        <TextView
+            android:layout_width="720dp"
+            android:layout_height="wrap_content"
+            android:text="题库地址（开机 / 打开应用时自动拉取，填目录即可）"
+            android:textSize="22sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/et_bank_url"
+            android:layout_width="720dp"
+            android:layout_height="wrap_content"
+            android:minHeight="56dp"
+            android:inputType="textUri"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textSize="18sp"
+            android:textColor="@color/text_primary"
+            android:textColorHint="@color/text_secondary"
+            android:background="@drawable/card_bg"
+            android:layout_marginBottom="12dp"
+            android:focusable="true"/>
+
+        <TextView
+            android:id="@+id/tv_bank_status"
+            android:layout_width="720dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/text_secondary"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"
+            android:text="题库状态"/>
+
+        <Button
+            android:id="@+id/btn_refresh_banks"
+            android:layout_width="400dp"
+            android:layout_height="72dp"
+            android:text="立即更新题库"
+            android:textSize="26sp"
+            android:textColor="@color/text_primary"
+            android:background="@drawable/btn_selector"
+            android:focusable="true"
+            android:layout_marginBottom="16dp"/>
+
         <Button
             android:id="@+id/btn_save"
             android:layout_width="400dp"

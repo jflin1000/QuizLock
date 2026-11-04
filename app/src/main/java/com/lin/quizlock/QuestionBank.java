@@ -14,12 +14,16 @@ public final class QuestionBank {
     public static Question next() {
         Question q = null;
         for (int attempt = 0; attempt < 12; attempt++) {
-            int cat = RND.nextInt(4);
-            switch (cat) {
-                case 0: q = MathGenerator.next(RND); break;
-                case 1: q = EnglishBank.next(RND); break;
-                case 2: q = PoemBank.next(RND); break;
-                default: q = ScienceBank.next(RND); break;
+            // 权重：数学 ~45%，英语/古诗/科学各 ~18%
+            int roll = RND.nextInt(100);
+            if (roll < 45) {
+                q = MathGenerator.next(RND);
+            } else if (roll < 63) {
+                q = EnglishBank.next(RND);
+            } else if (roll < 81) {
+                q = PoemBank.next(RND);
+            } else {
+                q = ScienceBank.next(RND);
             }
             String key = q.subject + "|" + q.prompt;
             if (!RECENT.contains(key)) {
@@ -34,7 +38,6 @@ public final class QuestionBank {
     private static void remember(String key) {
         RECENT.add(key);
         if (RECENT.size() > RECENT_LIMIT) {
-            // drop arbitrary one
             String first = RECENT.iterator().next();
             RECENT.remove(first);
         }

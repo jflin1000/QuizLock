@@ -66,6 +66,7 @@ public class QuizLockService extends Service {
     @Override
     public void onCreate() {
         super.onCreate();
+        BankFetcher.kick(this);
         createChannel();
         startForeground(NOTI_ID, buildNotification());
         screenReceiver = new ScreenReceiver();

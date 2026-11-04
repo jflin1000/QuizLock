@@ -143,6 +143,11 @@ public final class ScienceBank {
     };
 
     public static Question next(Random rnd) {
+        List<BankRepository.SciItem> items = BankRepository.science();
+        if (items.size() >= 4) {
+            Question q = fromRepo(items, rnd);
+            if (q != null) return q;
+        }
         int i = rnd.nextInt(ITEMS.length);
         String prompt = ITEMS[i][0];
         String correct = ITEMS[i][1];
@@ -160,5 +165,21 @@ public final class ScienceBank {
         return new Question("科学常识", prompt, unique.toArray(new String[0]), idx);
     }
 
-    public static int size() { return ITEMS.length; }
+    private static Question fromRepo(List<BankRepository.SciItem> items, Random rnd) {
+        BankRepository.SciItem item = items.get(rnd.nextInt(items.size()));
+        List<String> opts = new ArrayList<String>();
+        opts.add(item.answer);
+        for (String d : item.distractors) if (!opts.contains(d)) opts.add(d);
+        if (opts.size() < 4) return null;
+        if (opts.size() > 4) opts = new ArrayList<String>(opts.subList(0, 4));
+        Collections.shuffle(opts, rnd);
+        int idx = opts.indexOf(item.answer);
+        if (idx < 0) return null;
+        return new Question(BankRepository.scienceSubject(), item.prompt, opts.toArray(new String[0]), idx);
+    }
+
+    public static int size() {
+        List<BankRepository.SciItem> items = BankRepository.science();
+        return items.size() >= 4 ? items.size() : ITEMS.length;
+    }
 }

@@ -28,6 +28,10 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "正在出题…", Toast.LENGTH_SHORT).show();
         });
 
+        BankRepository.ensureLoaded(this);
+        BankFetcher.kick(this, () -> runOnUiThread(() -> {
+            if (!isDestroyed()) updateStatus();
+        }), false);
         if (Prefs.isEnabled(this)) {
             QuizLockService.start(this);
         }
@@ -43,7 +47,10 @@ public class MainActivity extends AppCompatActivity {
     private void updateStatus() {
         boolean en = Prefs.isEnabled(this);
         int min = Prefs.getIntervalMinutes(this);
+        String net = Prefs.getBankStatus(this);
         tvStatus.setText("弹题：" + (en ? "已启用" : "已关闭")
-                + "　间隔：" + min + " 分钟\n出题方式：全屏答题页（无需悬浮窗权限）");
+                + "　间隔：" + min + " 分钟\n出题方式：全屏答题页（无需悬浮窗权限）\n"
+                + "题库：" + BankRepository.summary()
+                + (net.length() == 0 ? "" : "\n" + net));
     }
 }

@@ -5,7 +5,11 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
-/** PEP 小学高年级常用词汇，中英互译选择题 */
+/**
+ * 中英互译选择题。正常路径读 {@code banks/english.json}
+ * （内置 assets、本地缓存或 GitHub 最新版）；JSON 不可用时退回下面的基础词表。
+ * {@code level >= 6} 约占 70%，其余复习基础词，干扰项来自同一档。
+ */
 public final class EnglishBank {
     private EnglishBank() {}
     private static final String[][] WORDS = {
@@ -192,13 +196,66 @@ public final class EnglishBank {
     };
 
     public static Question next(Random rnd) {
+        List<BankRepository.Word> words = BankRepository.words();
+        if (words.size() >= 4) return fromWords(words, rnd);
+        return fromBuiltin(rnd);
+    }
+
+    /** 约 70% 抽六年级词（level ≥ 6），30% 抽基础词。干扰项与正确答案同一档。 */
+    private static Question fromWords(List<BankRepository.Word> words, Random rnd) {
+        List<BankRepository.Word> hard = new ArrayList<BankRepository.Word>();
+        List<BankRepository.Word> easy = new ArrayList<BankRepository.Word>();
+        for (BankRepository.Word w : words) {
+            if (w.level >= 6) hard.add(w);
+            else easy.add(w);
+        }
+        List<BankRepository.Word> band;
+        if (hard.size() >= 8 && easy.size() >= 4) {
+            band = rnd.nextInt(100) < 70 ? hard : easy;
+        } else if (hard.size() >= 8 && rnd.nextInt(100) < 70) {
+            band = hard;
+        } else {
+            band = words;
+        }
+        BankRepository.Word pick = band.get(rnd.nextInt(band.size()));
+        boolean enToZh = rnd.nextBoolean();
+        String prompt = enToZh
+                ? "“" + pick.en + "” 的中文意思是？"
+                : "“" + pick.zh + "” 的英文是？";
+        String correct = enToZh ? pick.zh : pick.en;
+        List<String> pool = new ArrayList<String>();
+        collectOptions(pool, band, pick, enToZh);
+        if (pool.size() < 3) collectOptions(pool, words, pick, enToZh);
+        Collections.shuffle(pool, rnd);
+        List<String> opts = new ArrayList<String>();
+        opts.add(correct);
+        for (String p : pool) {
+            if (opts.size() >= 4) break;
+            if (!opts.contains(p)) opts.add(p);
+        }
+        while (opts.size() < 4) opts.add("—");
+        Collections.shuffle(opts, rnd);
+        return new Question(BankRepository.englishSubject(), prompt,
+                opts.toArray(new String[0]), opts.indexOf(correct));
+    }
+
+    private static void collectOptions(List<String> pool, List<BankRepository.Word> band,
+                                       BankRepository.Word pick, boolean enToZh) {
+        for (BankRepository.Word w : band) {
+            String opt = enToZh ? w.zh : w.en;
+            String correct = enToZh ? pick.zh : pick.en;
+            if (!opt.equals(correct) && !pool.contains(opt)) pool.add(opt);
+        }
+    }
+
+    private static Question fromBuiltin(Random rnd) {
         int i = rnd.nextInt(WORDS.length);
         String en = WORDS[i][0];
         String zh = WORDS[i][1];
         boolean enToZh = rnd.nextBoolean();
         String prompt;
         String correct;
-        List<String> pool = new ArrayList<>();
+        List<String> pool = new ArrayList<String>();
         if (enToZh) {
             prompt = "“" + en + "” 的中文意思是？";
             correct = zh;
@@ -209,7 +266,7 @@ public final class EnglishBank {
             for (String[] w : WORDS) if (!w[0].equals(en)) pool.add(w[0]);
         }
         Collections.shuffle(pool, rnd);
-        List<String> opts = new ArrayList<>();
+        List<String> opts = new ArrayList<String>();
         opts.add(correct);
         for (String p : pool) {
             if (opts.size() >= 4) break;
@@ -219,5 +276,8 @@ public final class EnglishBank {
         return new Question("英语单词", prompt, opts.toArray(new String[0]), opts.indexOf(correct));
     }
 
-    public static int size() { return WORDS.length; }
+    public static int size() {
+        List<BankRepository.Word> words = BankRepository.words();
+        return words.size() >= 4 ? words.size() : WORDS.length;
+    }
 }

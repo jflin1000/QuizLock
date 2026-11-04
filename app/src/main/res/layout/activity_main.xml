@@ -19,9 +19,11 @@
         android:id="@+id/tv_status"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="24sp"
+        android:gravity="center"
+        android:lineSpacingExtra="6dp"
+        android:textSize="20sp"
         android:textColor="@color/text_secondary"
-        android:layout_marginBottom="48dp"
+        android:layout_marginBottom="36dp"
         android:text="服务状态"/>
 
     <Button

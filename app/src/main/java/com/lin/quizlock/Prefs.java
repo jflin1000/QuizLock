@@ -7,6 +7,9 @@ public final class Prefs {
     private static final String NAME = "quizlock_prefs";
     public static final int DEFAULT_INTERVAL_MIN = 5;
     public static final String DEFAULT_PIN = "0000";
+    /** 题库目录，不含具体文件名。App 会请求其下的 english.json、poems.json、science.json。 */
+    public static final String DEFAULT_BANK_BASE_URL =
+            "https://raw.githubusercontent.com/jflin1000/QuizLock/main/banks";
 
     private Prefs() {}
 
@@ -42,5 +45,25 @@ public final class Prefs {
 
     public static boolean checkPin(Context c, String input) {
         return getPin(c).equals(input == null ? "" : input.trim());
+    }
+
+    public static String getBankBaseUrl(Context c) {
+        String u = sp(c).getString("bank_base_url", DEFAULT_BANK_BASE_URL);
+        if (u == null || u.trim().length() == 0) return DEFAULT_BANK_BASE_URL;
+        return u.trim();
+    }
+
+    public static void setBankBaseUrl(Context c, String url) {
+        if (url == null || url.trim().length() == 0) url = DEFAULT_BANK_BASE_URL;
+        sp(c).edit().putString("bank_base_url", url.trim()).apply();
+    }
+
+    public static String getBankStatus(Context c) {
+        String s = sp(c).getString("bank_status", "");
+        return s == null ? "" : s;
+    }
+
+    public static void setBankStatus(Context c, String status) {
+        sp(c).edit().putString("bank_status", status == null ? "" : status).apply();
     }
 }

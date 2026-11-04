@@ -269,8 +269,50 @@ public final class PoemBank {
     };
 
     public static Question next(Random rnd) {
+        List<BankRepository.Couplet> cs = BankRepository.couplets();
+        List<BankRepository.Title> ts = BankRepository.titles();
+        if (cs.size() >= 4) {
+            if (ts.size() >= 4 && rnd.nextBoolean()) {
+                Question q = authorFromRepo(ts, rnd);
+                if (q != null) return q;
+            }
+            Question q = fillFromRepo(cs, rnd);
+            if (q != null) return q;
+        }
         if (rnd.nextBoolean()) return fillNext(rnd);
         return authorQ(rnd);
+    }
+
+    private static Question fillFromRepo(List<BankRepository.Couplet> cs, Random rnd) {
+        BankRepository.Couplet c = cs.get(rnd.nextInt(cs.size()));
+        String correct = c.next;
+        Set<String> pool = new LinkedHashSet<String>();
+        for (BankRepository.Couplet o : cs) if (!o.next.equals(correct)) pool.add(o.next);
+        if (pool.size() < 3) return null;
+        List<String> distractors = new ArrayList<String>(pool);
+        Collections.shuffle(distractors, rnd);
+        List<String> opts = new ArrayList<String>();
+        opts.add(correct);
+        for (String d : distractors) { if (opts.size() >= 4) break; opts.add(d); }
+        Collections.shuffle(opts, rnd);
+        String prompt = "下一句是什么？\n「" + c.prev + "」";
+        return new Question(BankRepository.poemSubject(), prompt, opts.toArray(new String[0]), opts.indexOf(correct));
+    }
+
+    private static Question authorFromRepo(List<BankRepository.Title> titles, Random rnd) {
+        BankRepository.Title t = titles.get(rnd.nextInt(titles.size()));
+        String correct = t.author;
+        Set<String> pool = new LinkedHashSet<String>();
+        for (BankRepository.Title o : titles) if (!o.author.equals(correct)) pool.add(o.author);
+        if (pool.size() < 3) return null;
+        List<String> distractors = new ArrayList<String>(pool);
+        Collections.shuffle(distractors, rnd);
+        List<String> opts = new ArrayList<String>();
+        opts.add(correct);
+        for (String d : distractors) { if (opts.size() >= 4) break; opts.add(d); }
+        Collections.shuffle(opts, rnd);
+        String prompt = "《" + t.title + "》的作者是谁？\n（" + t.first + "…）";
+        return new Question(BankRepository.poemSubject(), prompt, opts.toArray(new String[0]), opts.indexOf(correct));
     }
 
     private static Question fillNext(Random rnd) {

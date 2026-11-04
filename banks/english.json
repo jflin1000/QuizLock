@@ -1,0 +1,4071 @@
+{
+  "version": 2,
+  "subject": "英语单词",
+  "words": [
+    {
+      "en": "apple",
+      "zh": "苹果",
+      "level": 4
+    },
+    {
+      "en": "banana",
+      "zh": "香蕉",
+      "level": 4
+    },
+    {
+      "en": "orange",
+      "zh": "橙子",
+      "level": 4
+    },
+    {
+      "en": "grape",
+      "zh": "葡萄",
+      "level": 4
+    },
+    {
+      "en": "watermelon",
+      "zh": "西瓜",
+      "level": 4
+    },
+    {
+      "en": "school",
+      "zh": "学校",
+      "level": 4
+    },
+    {
+      "en": "teacher",
+      "zh": "老师",
+      "level": 4
+    },
+    {
+      "en": "student",
+      "zh": "学生",
+      "level": 4
+    },
+    {
+      "en": "classroom",
+      "zh": "教室",
+      "level": 4
+    },
+    {
+      "en": "homework",
+      "zh": "作业",
+      "level": 6
+    },
+    {
+      "en": "book",
+      "zh": "书",
+      "level": 4
+    },
+    {
+      "en": "pencil",
+      "zh": "铅笔",
+      "level": 4
+    },
+    {
+      "en": "eraser",
+      "zh": "橡皮",
+      "level": 4
+    },
+    {
+      "en": "ruler",
+      "zh": "尺子",
+      "level": 4
+    },
+    {
+      "en": "bag",
+      "zh": "书包",
+      "level": 4
+    },
+    {
+      "en": "father",
+      "zh": "父亲",
+      "level": 4
+    },
+    {
+      "en": "mother",
+      "zh": "母亲",
+      "level": 4
+    },
+    {
+      "en": "brother",
+      "zh": "兄弟",
+      "level": 4
+    },
+    {
+      "en": "sister",
+      "zh": "姐妹",
+      "level": 4
+    },
+    {
+      "en": "family",
+      "zh": "家庭",
+      "level": 4
+    },
+    {
+      "en": "friend",
+      "zh": "朋友",
+      "level": 4
+    },
+    {
+      "en": "happy",
+      "zh": "高兴的",
+      "level": 4
+    },
+    {
+      "en": "sad",
+      "zh": "伤心的",
+      "level": 4
+    },
+    {
+      "en": "angry",
+      "zh": "生气的",
+      "level": 6
+    },
+    {
+      "en": "tired",
+      "zh": "疲倦的",
+      "level": 6
+    },
+    {
+      "en": "big",
+      "zh": "大的",
+      "level": 4
+    },
+    {
+      "en": "small",
+      "zh": "小的",
+      "level": 4
+    },
+    {
+      "en": "long",
+      "zh": "长的",
+      "level": 4
+    },
+    {
+      "en": "short",
+      "zh": "短的",
+      "level": 4
+    },
+    {
+      "en": "tall",
+      "zh": "高的",
+      "level": 4
+    },
+    {
+      "en": "red",
+      "zh": "红色",
+      "level": 4
+    },
+    {
+      "en": "blue",
+      "zh": "蓝色",
+      "level": 4
+    },
+    {
+      "en": "green",
+      "zh": "绿色",
+      "level": 4
+    },
+    {
+      "en": "yellow",
+      "zh": "黄色",
+      "level": 4
+    },
+    {
+      "en": "white",
+      "zh": "白色",
+      "level": 4
+    },
+    {
+      "en": "black",
+      "zh": "黑色",
+      "level": 4
+    },
+    {
+      "en": "Monday",
+      "zh": "星期一",
+      "level": 4
+    },
+    {
+      "en": "Tuesday",
+      "zh": "星期二",
+      "level": 4
+    },
+    {
+      "en": "Wednesday",
+      "zh": "星期三",
+      "level": 4
+    },
+    {
+      "en": "Thursday",
+      "zh": "星期四",
+      "level": 4
+    },
+    {
+      "en": "Friday",
+      "zh": "星期五",
+      "level": 4
+    },
+    {
+      "en": "Saturday",
+      "zh": "星期六",
+      "level": 4
+    },
+    {
+      "en": "Sunday",
+      "zh": "星期日",
+      "level": 4
+    },
+    {
+      "en": "today",
+      "zh": "今天",
+      "level": 4
+    },
+    {
+      "en": "tomorrow",
+      "zh": "明天",
+      "level": 6
+    },
+    {
+      "en": "yesterday",
+      "zh": "昨天",
+      "level": 6
+    },
+    {
+      "en": "morning",
+      "zh": "早晨",
+      "level": 4
+    },
+    {
+      "en": "afternoon",
+      "zh": "下午",
+      "level": 4
+    },
+    {
+      "en": "evening",
+      "zh": "晚上",
+      "level": 4
+    },
+    {
+      "en": "night",
+      "zh": "夜晚",
+      "level": 4
+    },
+    {
+      "en": "spring",
+      "zh": "春天",
+      "level": 4
+    },
+    {
+      "en": "summer",
+      "zh": "夏天",
+      "level": 4
+    },
+    {
+      "en": "autumn",
+      "zh": "秋天",
+      "level": 4
+    },
+    {
+      "en": "winter",
+      "zh": "冬天",
+      "level": 4
+    },
+    {
+      "en": "weather",
+      "zh": "天气",
+      "level": 4
+    },
+    {
+      "en": "sunny",
+      "zh": "晴朗的",
+      "level": 4
+    },
+    {
+      "en": "rainy",
+      "zh": "下雨的",
+      "level": 4
+    },
+    {
+      "en": "cloudy",
+      "zh": "多云的",
+      "level": 4
+    },
+    {
+      "en": "windy",
+      "zh": "有风的",
+      "level": 4
+    },
+    {
+      "en": "snowy",
+      "zh": "下雪的",
+      "level": 4
+    },
+    {
+      "en": "dog",
+      "zh": "狗",
+      "level": 4
+    },
+    {
+      "en": "cat",
+      "zh": "猫",
+      "level": 4
+    },
+    {
+      "en": "bird",
+      "zh": "鸟",
+      "level": 4
+    },
+    {
+      "en": "fish",
+      "zh": "鱼",
+      "level": 4
+    },
+    {
+      "en": "rabbit",
+      "zh": "兔子",
+      "level": 4
+    },
+    {
+      "en": "tiger",
+      "zh": "老虎",
+      "level": 4
+    },
+    {
+      "en": "panda",
+      "zh": "熊猫",
+      "level": 6
+    },
+    {
+      "en": "monkey",
+      "zh": "猴子",
+      "level": 4
+    },
+    {
+      "en": "elephant",
+      "zh": "大象",
+      "level": 6
+    },
+    {
+      "en": "lion",
+      "zh": "狮子",
+      "level": 4
+    },
+    {
+      "en": "eat",
+      "zh": "吃",
+      "level": 4
+    },
+    {
+      "en": "drink",
+      "zh": "喝",
+      "level": 4
+    },
+    {
+      "en": "sleep",
+      "zh": "睡觉",
+      "level": 4
+    },
+    {
+      "en": "run",
+      "zh": "跑",
+      "level": 4
+    },
+    {
+      "en": "walk",
+      "zh": "走",
+      "level": 4
+    },
+    {
+      "en": "jump",
+      "zh": "跳",
+      "level": 4
+    },
+    {
+      "en": "read",
+      "zh": "读",
+      "level": 4
+    },
+    {
+      "en": "write",
+      "zh": "写",
+      "level": 4
+    },
+    {
+      "en": "listen",
+      "zh": "听",
+      "level": 4
+    },
+    {
+      "en": "speak",
+      "zh": "说",
+      "level": 4
+    },
+    {
+      "en": "play",
+      "zh": "玩",
+      "level": 4
+    },
+    {
+      "en": "sing",
+      "zh": "唱",
+      "level": 4
+    },
+    {
+      "en": "dance",
+      "zh": "跳舞",
+      "level": 4
+    },
+    {
+      "en": "swim",
+      "zh": "游泳",
+      "level": 4
+    },
+    {
+      "en": "draw",
+      "zh": "画画",
+      "level": 4
+    },
+    {
+      "en": "water",
+      "zh": "水",
+      "level": 4
+    },
+    {
+      "en": "milk",
+      "zh": "牛奶",
+      "level": 4
+    },
+    {
+      "en": "bread",
+      "zh": "面包",
+      "level": 4
+    },
+    {
+      "en": "rice",
+      "zh": "米饭",
+      "level": 4
+    },
+    {
+      "en": "noodle",
+      "zh": "面条",
+      "level": 4
+    },
+    {
+      "en": "egg",
+      "zh": "鸡蛋",
+      "level": 4
+    },
+    {
+      "en": "meat",
+      "zh": "肉",
+      "level": 4
+    },
+    {
+      "en": "chicken",
+      "zh": "鸡肉",
+      "level": 4
+    },
+    {
+      "en": "vegetable",
+      "zh": "蔬菜",
+      "level": 6
+    },
+    {
+      "en": "fruit",
+      "zh": "水果",
+      "level": 4
+    },
+    {
+      "en": "hospital",
+      "zh": "医院",
+      "level": 4
+    },
+    {
+      "en": "doctor",
+      "zh": "医生",
+      "level": 4
+    },
+    {
+      "en": "nurse",
+      "zh": "护士",
+      "level": 4
+    },
+    {
+      "en": "park",
+      "zh": "公园",
+      "level": 4
+    },
+    {
+      "en": "zoo",
+      "zh": "动物园",
+      "level": 4
+    },
+    {
+      "en": "library",
+      "zh": "图书馆",
+      "level": 6
+    },
+    {
+      "en": "museum",
+      "zh": "博物馆",
+      "level": 6
+    },
+    {
+      "en": "cinema",
+      "zh": "电影院",
+      "level": 6
+    },
+    {
+      "en": "supermarket",
+      "zh": "超市",
+      "level": 6
+    },
+    {
+      "en": "restaurant",
+      "zh": "餐馆",
+      "level": 6
+    },
+    {
+      "en": "bus",
+      "zh": "公共汽车",
+      "level": 4
+    },
+    {
+      "en": "train",
+      "zh": "火车",
+      "level": 4
+    },
+    {
+      "en": "plane",
+      "zh": "飞机",
+      "level": 4
+    },
+    {
+      "en": "bike",
+      "zh": "自行车",
+      "level": 4
+    },
+    {
+      "en": "car",
+      "zh": "小汽车",
+      "level": 4
+    },
+    {
+      "en": "ship",
+      "zh": "轮船",
+      "level": 4
+    },
+    {
+      "en": "taxi",
+      "zh": "出租车",
+      "level": 4
+    },
+    {
+      "en": "subway",
+      "zh": "地铁",
+      "level": 6
+    },
+    {
+      "en": "station",
+      "zh": "车站",
+      "level": 6
+    },
+    {
+      "en": "airport",
+      "zh": "机场",
+      "level": 6
+    },
+    {
+      "en": "head",
+      "zh": "头",
+      "level": 4
+    },
+    {
+      "en": "eye",
+      "zh": "眼睛",
+      "level": 4
+    },
+    {
+      "en": "ear",
+      "zh": "耳朵",
+      "level": 4
+    },
+    {
+      "en": "nose",
+      "zh": "鼻子",
+      "level": 4
+    },
+    {
+      "en": "mouth",
+      "zh": "嘴巴",
+      "level": 4
+    },
+    {
+      "en": "hand",
+      "zh": "手",
+      "level": 4
+    },
+    {
+      "en": "foot",
+      "zh": "脚",
+      "level": 4
+    },
+    {
+      "en": "arm",
+      "zh": "胳膊",
+      "level": 4
+    },
+    {
+      "en": "leg",
+      "zh": "腿",
+      "level": 4
+    },
+    {
+      "en": "face",
+      "zh": "脸",
+      "level": 4
+    },
+    {
+      "en": "jacket",
+      "zh": "夹克",
+      "level": 6
+    },
+    {
+      "en": "shirt",
+      "zh": "衬衫",
+      "level": 4
+    },
+    {
+      "en": "dress",
+      "zh": "连衣裙",
+      "level": 4
+    },
+    {
+      "en": "skirt",
+      "zh": "裙子",
+      "level": 4
+    },
+    {
+      "en": "pants",
+      "zh": "裤子",
+      "level": 4
+    },
+    {
+      "en": "shoes",
+      "zh": "鞋子",
+      "level": 4
+    },
+    {
+      "en": "hat",
+      "zh": "帽子",
+      "level": 4
+    },
+    {
+      "en": "socks",
+      "zh": "袜子",
+      "level": 4
+    },
+    {
+      "en": "coat",
+      "zh": "外套",
+      "level": 4
+    },
+    {
+      "en": "scarf",
+      "zh": "围巾",
+      "level": 6
+    },
+    {
+      "en": "China",
+      "zh": "中国",
+      "level": 4
+    },
+    {
+      "en": "Beijing",
+      "zh": "北京",
+      "level": 4
+    },
+    {
+      "en": "English",
+      "zh": "英语",
+      "level": 4
+    },
+    {
+      "en": "Chinese",
+      "zh": "汉语",
+      "level": 4
+    },
+    {
+      "en": "America",
+      "zh": "美国",
+      "level": 4
+    },
+    {
+      "en": "beautiful",
+      "zh": "美丽的",
+      "level": 6
+    },
+    {
+      "en": "interesting",
+      "zh": "有趣的",
+      "level": 6
+    },
+    {
+      "en": "difficult",
+      "zh": "困难的",
+      "level": 6
+    },
+    {
+      "en": "easy",
+      "zh": "容易的",
+      "level": 4
+    },
+    {
+      "en": "important",
+      "zh": "重要的",
+      "level": 6
+    },
+    {
+      "en": "always",
+      "zh": "总是",
+      "level": 6
+    },
+    {
+      "en": "usually",
+      "zh": "通常",
+      "level": 6
+    },
+    {
+      "en": "often",
+      "zh": "经常",
+      "level": 6
+    },
+    {
+      "en": "sometimes",
+      "zh": "有时",
+      "level": 6
+    },
+    {
+      "en": "never",
+      "zh": "从不",
+      "level": 6
+    },
+    {
+      "en": "because",
+      "zh": "因为",
+      "level": 6
+    },
+    {
+      "en": "before",
+      "zh": "在…之前",
+      "level": 4
+    },
+    {
+      "en": "after",
+      "zh": "在…之后",
+      "level": 4
+    },
+    {
+      "en": "between",
+      "zh": "在…之间",
+      "level": 6
+    },
+    {
+      "en": "beside",
+      "zh": "在…旁边",
+      "level": 6
+    },
+    {
+      "en": "window",
+      "zh": "窗户",
+      "level": 4
+    },
+    {
+      "en": "door",
+      "zh": "门",
+      "level": 4
+    },
+    {
+      "en": "floor",
+      "zh": "地板",
+      "level": 4
+    },
+    {
+      "en": "wall",
+      "zh": "墙壁",
+      "level": 4
+    },
+    {
+      "en": "desk",
+      "zh": "课桌",
+      "level": 4
+    },
+    {
+      "en": "chair",
+      "zh": "椅子",
+      "level": 4
+    },
+    {
+      "en": "computer",
+      "zh": "电脑",
+      "level": 6
+    },
+    {
+      "en": "phone",
+      "zh": "电话",
+      "level": 4
+    },
+    {
+      "en": "clock",
+      "zh": "时钟",
+      "level": 4
+    },
+    {
+      "en": "picture",
+      "zh": "图画",
+      "level": 4
+    },
+    {
+      "en": "birthday",
+      "zh": "生日",
+      "level": 4
+    },
+    {
+      "en": "holiday",
+      "zh": "假期",
+      "level": 6
+    },
+    {
+      "en": "festival",
+      "zh": "节日",
+      "level": 6
+    },
+    {
+      "en": "Christmas",
+      "zh": "圣诞节",
+      "level": 6
+    },
+    {
+      "en": "New Year",
+      "zh": "新年",
+      "level": 4
+    },
+    {
+      "en": "strong",
+      "zh": "强壮的",
+      "level": 6
+    },
+    {
+      "en": "weak",
+      "zh": "虚弱的",
+      "level": 6
+    },
+    {
+      "en": "fast",
+      "zh": "快的",
+      "level": 4
+    },
+    {
+      "en": "slow",
+      "zh": "慢的",
+      "level": 4
+    },
+    {
+      "en": "clever",
+      "zh": "聪明的",
+      "level": 6
+    },
+    {
+      "en": "kind",
+      "zh": "友好的",
+      "level": 4
+    },
+    {
+      "en": "polite",
+      "zh": "有礼貌的",
+      "level": 6
+    },
+    {
+      "en": "brave",
+      "zh": "勇敢的",
+      "level": 6
+    },
+    {
+      "en": "quiet",
+      "zh": "安静的",
+      "level": 6
+    },
+    {
+      "en": "noisy",
+      "zh": "吵闹的",
+      "level": 6
+    },
+    {
+      "en": "science",
+      "zh": "科学",
+      "level": 6
+    },
+    {
+      "en": "bookstore",
+      "zh": "书店",
+      "level": 6
+    },
+    {
+      "en": "post office",
+      "zh": "邮局",
+      "level": 6
+    },
+    {
+      "en": "crossing",
+      "zh": "十字路口",
+      "level": 6
+    },
+    {
+      "en": "science museum",
+      "zh": "科技馆",
+      "level": 6
+    },
+    {
+      "en": "straight",
+      "zh": "笔直的",
+      "level": 6
+    },
+    {
+      "en": "turn left",
+      "zh": "向左转",
+      "level": 6
+    },
+    {
+      "en": "turn right",
+      "zh": "向右转",
+      "level": 6
+    },
+    {
+      "en": "go straight",
+      "zh": "一直往前走",
+      "level": 6
+    },
+    {
+      "en": "left",
+      "zh": "左边",
+      "level": 6
+    },
+    {
+      "en": "right",
+      "zh": "右边",
+      "level": 6
+    },
+    {
+      "en": "sir",
+      "zh": "先生",
+      "level": 6
+    },
+    {
+      "en": "Italian",
+      "zh": "意大利的",
+      "level": 6
+    },
+    {
+      "en": "pizza",
+      "zh": "比萨饼",
+      "level": 6
+    },
+    {
+      "en": "street",
+      "zh": "大街",
+      "level": 6
+    },
+    {
+      "en": "follow",
+      "zh": "跟随",
+      "level": 6
+    },
+    {
+      "en": "far",
+      "zh": "远的",
+      "level": 6
+    },
+    {
+      "en": "tell",
+      "zh": "告诉",
+      "level": 6
+    },
+    {
+      "en": "feature",
+      "zh": "特色",
+      "level": 6
+    },
+    {
+      "en": "on foot",
+      "zh": "步行",
+      "level": 6
+    },
+    {
+      "en": "by bus",
+      "zh": "乘公交车",
+      "level": 6
+    },
+    {
+      "en": "by plane",
+      "zh": "乘飞机",
+      "level": 6
+    },
+    {
+      "en": "by taxi",
+      "zh": "乘出租车",
+      "level": 6
+    },
+    {
+      "en": "by ship",
+      "zh": "乘轮船",
+      "level": 6
+    },
+    {
+      "en": "by subway",
+      "zh": "乘地铁",
+      "level": 6
+    },
+    {
+      "en": "by train",
+      "zh": "乘火车",
+      "level": 6
+    },
+    {
+      "en": "by bike",
+      "zh": "骑自行车",
+      "level": 6
+    },
+    {
+      "en": "slow down",
+      "zh": "减速",
+      "level": 6
+    },
+    {
+      "en": "stop",
+      "zh": "停下",
+      "level": 6
+    },
+    {
+      "en": "wait",
+      "zh": "等待",
+      "level": 6
+    },
+    {
+      "en": "traffic",
+      "zh": "交通",
+      "level": 6
+    },
+    {
+      "en": "traffic light",
+      "zh": "红绿灯",
+      "level": 6
+    },
+    {
+      "en": "helmet",
+      "zh": "头盔",
+      "level": 6
+    },
+    {
+      "en": "must",
+      "zh": "必须",
+      "level": 6
+    },
+    {
+      "en": "wear",
+      "zh": "穿着",
+      "level": 6
+    },
+    {
+      "en": "pay attention",
+      "zh": "留意",
+      "level": 6
+    },
+    {
+      "en": "attention",
+      "zh": "注意力",
+      "level": 6
+    },
+    {
+      "en": "Germany",
+      "zh": "德国",
+      "level": 6
+    },
+    {
+      "en": "Alaska",
+      "zh": "阿拉斯加",
+      "level": 6
+    },
+    {
+      "en": "sled",
+      "zh": "雪橇",
+      "level": 6
+    },
+    {
+      "en": "ferry",
+      "zh": "渡轮",
+      "level": 6
+    },
+    {
+      "en": "Scotland",
+      "zh": "苏格兰",
+      "level": 6
+    },
+    {
+      "en": "film",
+      "zh": "电影",
+      "level": 6
+    },
+    {
+      "en": "see a film",
+      "zh": "看电影",
+      "level": 6
+    },
+    {
+      "en": "trip",
+      "zh": "行程",
+      "level": 6
+    },
+    {
+      "en": "take a trip",
+      "zh": "去旅行",
+      "level": 6
+    },
+    {
+      "en": "travel",
+      "zh": "旅行",
+      "level": 6
+    },
+    {
+      "en": "tonight",
+      "zh": "今晚",
+      "level": 6
+    },
+    {
+      "en": "next week",
+      "zh": "下周",
+      "level": 6
+    },
+    {
+      "en": "dictionary",
+      "zh": "词典",
+      "level": 6
+    },
+    {
+      "en": "comic book",
+      "zh": "漫画书",
+      "level": 6
+    },
+    {
+      "en": "word book",
+      "zh": "单词书",
+      "level": 6
+    },
+    {
+      "en": "postcard",
+      "zh": "明信片",
+      "level": 6
+    },
+    {
+      "en": "lesson",
+      "zh": "课文",
+      "level": 6
+    },
+    {
+      "en": "space",
+      "zh": "太空",
+      "level": 6
+    },
+    {
+      "en": "half",
+      "zh": "一半",
+      "level": 6
+    },
+    {
+      "en": "price",
+      "zh": "价格",
+      "level": 6
+    },
+    {
+      "en": "together",
+      "zh": "一起",
+      "level": 6
+    },
+    {
+      "en": "mooncake",
+      "zh": "月饼",
+      "level": 6
+    },
+    {
+      "en": "poem",
+      "zh": "诗",
+      "level": 6
+    },
+    {
+      "en": "moon",
+      "zh": "月亮",
+      "level": 6
+    },
+    {
+      "en": "visit",
+      "zh": "拜访",
+      "level": 6
+    },
+    {
+      "en": "puzzle",
+      "zh": "谜题",
+      "level": 6
+    },
+    {
+      "en": "hiking",
+      "zh": "远足",
+      "level": 6
+    },
+    {
+      "en": "pen pal",
+      "zh": "笔友",
+      "level": 6
+    },
+    {
+      "en": "hobby",
+      "zh": "爱好",
+      "level": 6
+    },
+    {
+      "en": "jasmine",
+      "zh": "茉莉花",
+      "level": 6
+    },
+    {
+      "en": "idea",
+      "zh": "主意",
+      "level": 6
+    },
+    {
+      "en": "Canberra",
+      "zh": "堪培拉",
+      "level": 6
+    },
+    {
+      "en": "amazing",
+      "zh": "令人惊奇的",
+      "level": 6
+    },
+    {
+      "en": "shall",
+      "zh": "将要",
+      "level": 6
+    },
+    {
+      "en": "goal",
+      "zh": "目标",
+      "level": 6
+    },
+    {
+      "en": "join",
+      "zh": "加入",
+      "level": 6
+    },
+    {
+      "en": "club",
+      "zh": "俱乐部",
+      "level": 6
+    },
+    {
+      "en": "share",
+      "zh": "分享",
+      "level": 6
+    },
+    {
+      "en": "factory",
+      "zh": "工厂",
+      "level": 6
+    },
+    {
+      "en": "worker",
+      "zh": "工人",
+      "level": 6
+    },
+    {
+      "en": "postman",
+      "zh": "邮递员",
+      "level": 6
+    },
+    {
+      "en": "businessman",
+      "zh": "商人",
+      "level": 6
+    },
+    {
+      "en": "police officer",
+      "zh": "警官",
+      "level": 6
+    },
+    {
+      "en": "fisherman",
+      "zh": "渔民",
+      "level": 6
+    },
+    {
+      "en": "scientist",
+      "zh": "科学家",
+      "level": 6
+    },
+    {
+      "en": "pilot",
+      "zh": "飞行员",
+      "level": 6
+    },
+    {
+      "en": "coach",
+      "zh": "教练",
+      "level": 6
+    },
+    {
+      "en": "country",
+      "zh": "国家",
+      "level": 6
+    },
+    {
+      "en": "head teacher",
+      "zh": "校长",
+      "level": 6
+    },
+    {
+      "en": "sea",
+      "zh": "大海",
+      "level": 6
+    },
+    {
+      "en": "university",
+      "zh": "大学",
+      "level": 6
+    },
+    {
+      "en": "gym",
+      "zh": "体育馆",
+      "level": 6
+    },
+    {
+      "en": "reporter",
+      "zh": "记者",
+      "level": 6
+    },
+    {
+      "en": "type",
+      "zh": "打字",
+      "level": 6
+    },
+    {
+      "en": "quickly",
+      "zh": "迅速地",
+      "level": 6
+    },
+    {
+      "en": "secretary",
+      "zh": "秘书",
+      "level": 6
+    },
+    {
+      "en": "use",
+      "zh": "使用",
+      "level": 6
+    },
+    {
+      "en": "if",
+      "zh": "如果",
+      "level": 6
+    },
+    {
+      "en": "afraid",
+      "zh": "害怕的",
+      "level": 6
+    },
+    {
+      "en": "worried",
+      "zh": "担心的",
+      "level": 6
+    },
+    {
+      "en": "deep",
+      "zh": "深的",
+      "level": 6
+    },
+    {
+      "en": "breath",
+      "zh": "呼吸",
+      "level": 6
+    },
+    {
+      "en": "take a deep breath",
+      "zh": "深呼吸",
+      "level": 6
+    },
+    {
+      "en": "count",
+      "zh": "数数",
+      "level": 6
+    },
+    {
+      "en": "count to ten",
+      "zh": "数到十",
+      "level": 6
+    },
+    {
+      "en": "chase",
+      "zh": "追赶",
+      "level": 6
+    },
+    {
+      "en": "mouse",
+      "zh": "老鼠",
+      "level": 6
+    },
+    {
+      "en": "bad",
+      "zh": "坏的",
+      "level": 6
+    },
+    {
+      "en": "hurt",
+      "zh": "受伤",
+      "level": 6
+    },
+    {
+      "en": "ill",
+      "zh": "生病的",
+      "level": 6
+    },
+    {
+      "en": "wrong",
+      "zh": "错误的",
+      "level": 6
+    },
+    {
+      "en": "should",
+      "zh": "应该",
+      "level": 6
+    },
+    {
+      "en": "feel",
+      "zh": "感到",
+      "level": 6
+    },
+    {
+      "en": "well",
+      "zh": "身体好",
+      "level": 6
+    },
+    {
+      "en": "sit",
+      "zh": "坐下",
+      "level": 6
+    },
+    {
+      "en": "grass",
+      "zh": "草地",
+      "level": 6
+    },
+    {
+      "en": "hear",
+      "zh": "听见",
+      "level": 6
+    },
+    {
+      "en": "ant",
+      "zh": "蚂蚁",
+      "level": 6
+    },
+    {
+      "en": "worry",
+      "zh": "担忧",
+      "level": 6
+    },
+    {
+      "en": "stuck",
+      "zh": "被卡住的",
+      "level": 6
+    },
+    {
+      "en": "mud",
+      "zh": "泥巴",
+      "level": 6
+    },
+    {
+      "en": "pull",
+      "zh": "拉",
+      "level": 6
+    },
+    {
+      "en": "push",
+      "zh": "推",
+      "level": 6
+    },
+    {
+      "en": "everyone",
+      "zh": "每个人",
+      "level": 6
+    },
+    {
+      "en": "see a doctor",
+      "zh": "看医生",
+      "level": 6
+    },
+    {
+      "en": "young",
+      "zh": "年轻的",
+      "level": 6
+    },
+    {
+      "en": "funny",
+      "zh": "滑稽的",
+      "level": 6
+    },
+    {
+      "en": "strict",
+      "zh": "严格的",
+      "level": 6
+    },
+    {
+      "en": "hard-working",
+      "zh": "勤奋的",
+      "level": 6
+    },
+    {
+      "en": "helpful",
+      "zh": "乐于助人的",
+      "level": 6
+    },
+    {
+      "en": "shy",
+      "zh": "害羞的",
+      "level": 6
+    },
+    {
+      "en": "finish",
+      "zh": "完成",
+      "level": 6
+    },
+    {
+      "en": "younger",
+      "zh": "更年轻的",
+      "level": 6
+    },
+    {
+      "en": "older",
+      "zh": "更年长的",
+      "level": 6
+    },
+    {
+      "en": "taller",
+      "zh": "更高的",
+      "level": 6
+    },
+    {
+      "en": "shorter",
+      "zh": "更矮的",
+      "level": 6
+    },
+    {
+      "en": "longer",
+      "zh": "更长的",
+      "level": 6
+    },
+    {
+      "en": "thinner",
+      "zh": "更瘦的",
+      "level": 6
+    },
+    {
+      "en": "heavier",
+      "zh": "更重的",
+      "level": 6
+    },
+    {
+      "en": "bigger",
+      "zh": "更大的",
+      "level": 6
+    },
+    {
+      "en": "smaller",
+      "zh": "更小的",
+      "level": 6
+    },
+    {
+      "en": "stronger",
+      "zh": "更强的",
+      "level": 6
+    },
+    {
+      "en": "dinosaur",
+      "zh": "恐龙",
+      "level": 6
+    },
+    {
+      "en": "hall",
+      "zh": "大厅",
+      "level": 6
+    },
+    {
+      "en": "metre",
+      "zh": "公尺",
+      "level": 6
+    },
+    {
+      "en": "than",
+      "zh": "比",
+      "level": 6
+    },
+    {
+      "en": "both",
+      "zh": "两者都",
+      "level": 6
+    },
+    {
+      "en": "kilogram",
+      "zh": "千克",
+      "level": 6
+    },
+    {
+      "en": "countryside",
+      "zh": "乡下",
+      "level": 6
+    },
+    {
+      "en": "lower",
+      "zh": "更低的",
+      "level": 6
+    },
+    {
+      "en": "shadow",
+      "zh": "影子",
+      "level": 6
+    },
+    {
+      "en": "smarter",
+      "zh": "更聪明的",
+      "level": 6
+    },
+    {
+      "en": "become",
+      "zh": "变成",
+      "level": 6
+    },
+    {
+      "en": "cleaned",
+      "zh": "打扫过",
+      "level": 6
+    },
+    {
+      "en": "stayed",
+      "zh": "停留过",
+      "level": 6
+    },
+    {
+      "en": "washed",
+      "zh": "洗过",
+      "level": 6
+    },
+    {
+      "en": "watched",
+      "zh": "观看过",
+      "level": 6
+    },
+    {
+      "en": "had a cold",
+      "zh": "感冒了",
+      "level": 6
+    },
+    {
+      "en": "slept",
+      "zh": "睡过",
+      "level": 6
+    },
+    {
+      "en": "saw",
+      "zh": "看见了",
+      "level": 6
+    },
+    {
+      "en": "last",
+      "zh": "上一个",
+      "level": 6
+    },
+    {
+      "en": "drank",
+      "zh": "喝过",
+      "level": 6
+    },
+    {
+      "en": "show",
+      "zh": "展示",
+      "level": 6
+    },
+    {
+      "en": "magazine",
+      "zh": "杂志",
+      "level": 6
+    },
+    {
+      "en": "better",
+      "zh": "更好的",
+      "level": 6
+    },
+    {
+      "en": "faster",
+      "zh": "更快的",
+      "level": 6
+    },
+    {
+      "en": "hotel",
+      "zh": "旅馆",
+      "level": 6
+    },
+    {
+      "en": "fixed",
+      "zh": "修理过",
+      "level": 6
+    },
+    {
+      "en": "broken",
+      "zh": "破损的",
+      "level": 6
+    },
+    {
+      "en": "lamp",
+      "zh": "台灯",
+      "level": 6
+    },
+    {
+      "en": "loud",
+      "zh": "响亮的",
+      "level": 6
+    },
+    {
+      "en": "enjoy",
+      "zh": "欣赏",
+      "level": 6
+    },
+    {
+      "en": "clean",
+      "zh": "打扫",
+      "level": 6
+    },
+    {
+      "en": "stay",
+      "zh": "停留",
+      "level": 6
+    },
+    {
+      "en": "wash",
+      "zh": "洗",
+      "level": 6
+    },
+    {
+      "en": "watch",
+      "zh": "观看",
+      "level": 6
+    },
+    {
+      "en": "go",
+      "zh": "去",
+      "level": 6
+    },
+    {
+      "en": "went",
+      "zh": "去过",
+      "level": 6
+    },
+    {
+      "en": "buy",
+      "zh": "买",
+      "level": 6
+    },
+    {
+      "en": "bought",
+      "zh": "买过",
+      "level": 6
+    },
+    {
+      "en": "gift",
+      "zh": "礼物",
+      "level": 6
+    },
+    {
+      "en": "take",
+      "zh": "拿",
+      "level": 6
+    },
+    {
+      "en": "took",
+      "zh": "拿过",
+      "level": 6
+    },
+    {
+      "en": "ride",
+      "zh": "骑",
+      "level": 6
+    },
+    {
+      "en": "rode",
+      "zh": "骑过",
+      "level": 6
+    },
+    {
+      "en": "fall",
+      "zh": "跌倒",
+      "level": 6
+    },
+    {
+      "en": "fell",
+      "zh": "跌倒过",
+      "level": 6
+    },
+    {
+      "en": "laugh",
+      "zh": "大笑",
+      "level": 6
+    },
+    {
+      "en": "laughed",
+      "zh": "大笑过",
+      "level": 6
+    },
+    {
+      "en": "fix",
+      "zh": "修理",
+      "level": 6
+    },
+    {
+      "en": "think",
+      "zh": "思考",
+      "level": 6
+    },
+    {
+      "en": "thought",
+      "zh": "想过",
+      "level": 6
+    },
+    {
+      "en": "wake",
+      "zh": "叫醒",
+      "level": 6
+    },
+    {
+      "en": "woke",
+      "zh": "醒了",
+      "level": 6
+    },
+    {
+      "en": "camp",
+      "zh": "营地",
+      "level": 6
+    },
+    {
+      "en": "went camping",
+      "zh": "去露营了",
+      "level": 6
+    },
+    {
+      "en": "went fishing",
+      "zh": "去钓鱼了",
+      "level": 6
+    },
+    {
+      "en": "rode a horse",
+      "zh": "骑马了",
+      "level": 6
+    },
+    {
+      "en": "took pictures",
+      "zh": "照相了",
+      "level": 6
+    },
+    {
+      "en": "bought gifts",
+      "zh": "买了礼物",
+      "level": 6
+    },
+    {
+      "en": "fell off",
+      "zh": "摔下来了",
+      "level": 6
+    },
+    {
+      "en": "mule",
+      "zh": "骡子",
+      "level": 6
+    },
+    {
+      "en": "could",
+      "zh": "能够",
+      "level": 6
+    },
+    {
+      "en": "till",
+      "zh": "直到",
+      "level": 6
+    },
+    {
+      "en": "licked",
+      "zh": "舔了",
+      "level": 6
+    },
+    {
+      "en": "ate",
+      "zh": "吃过",
+      "level": 6
+    },
+    {
+      "en": "dining hall",
+      "zh": "食堂",
+      "level": 6
+    },
+    {
+      "en": "ago",
+      "zh": "以前",
+      "level": 6
+    },
+    {
+      "en": "cycling",
+      "zh": "骑行",
+      "level": 6
+    },
+    {
+      "en": "go cycling",
+      "zh": "去骑行",
+      "level": 6
+    },
+    {
+      "en": "ice-skate",
+      "zh": "滑冰",
+      "level": 6
+    },
+    {
+      "en": "badminton",
+      "zh": "羽毛球",
+      "level": 6
+    },
+    {
+      "en": "star",
+      "zh": "星星",
+      "level": 6
+    },
+    {
+      "en": "look up",
+      "zh": "查阅",
+      "level": 6
+    },
+    {
+      "en": "Internet",
+      "zh": "互联网",
+      "level": 6
+    },
+    {
+      "en": "different",
+      "zh": "不同的",
+      "level": 6
+    },
+    {
+      "en": "active",
+      "zh": "积极的",
+      "level": 6
+    },
+    {
+      "en": "race",
+      "zh": "赛跑",
+      "level": 6
+    },
+    {
+      "en": "nothing",
+      "zh": "没有东西",
+      "level": 6
+    },
+    {
+      "en": "felt",
+      "zh": "感觉到了",
+      "level": 6
+    },
+    {
+      "en": "cheetah",
+      "zh": "猎豹",
+      "level": 6
+    },
+    {
+      "en": "woke up",
+      "zh": "醒过来",
+      "level": 6
+    },
+    {
+      "en": "dream",
+      "zh": "梦",
+      "level": 6
+    },
+    {
+      "en": "whose",
+      "zh": "谁的",
+      "level": 6
+    },
+    {
+      "en": "mine",
+      "zh": "我的",
+      "level": 6
+    },
+    {
+      "en": "yours",
+      "zh": "你的",
+      "level": 6
+    },
+    {
+      "en": "pack",
+      "zh": "收拾行李",
+      "level": 6
+    },
+    {
+      "en": "clothes",
+      "zh": "衣服",
+      "level": 6
+    },
+    {
+      "en": "sweater",
+      "zh": "毛衣",
+      "level": 6
+    },
+    {
+      "en": "shorts",
+      "zh": "短裤",
+      "level": 6
+    },
+    {
+      "en": "wait for",
+      "zh": "等候",
+      "level": 6
+    },
+    {
+      "en": "schedule",
+      "zh": "课程表",
+      "level": 6
+    },
+    {
+      "en": "robot",
+      "zh": "机器人",
+      "level": 6
+    },
+    {
+      "en": "speak English",
+      "zh": "说英语",
+      "level": 6
+    },
+    {
+      "en": "picnic",
+      "zh": "野餐",
+      "level": 6
+    },
+    {
+      "en": "season",
+      "zh": "季节",
+      "level": 6
+    },
+    {
+      "en": "which",
+      "zh": "哪一个",
+      "level": 6
+    },
+    {
+      "en": "best",
+      "zh": "最好的",
+      "level": 6
+    },
+    {
+      "en": "snow",
+      "zh": "雪",
+      "level": 6
+    },
+    {
+      "en": "vacation",
+      "zh": "休假",
+      "level": 6
+    },
+    {
+      "en": "pink",
+      "zh": "粉红色",
+      "level": 6
+    },
+    {
+      "en": "lovely",
+      "zh": "可爱的",
+      "level": 6
+    },
+    {
+      "en": "leaf",
+      "zh": "树叶",
+      "level": 6
+    },
+    {
+      "en": "paint",
+      "zh": "绘画",
+      "level": 6
+    },
+    {
+      "en": "pick",
+      "zh": "采摘",
+      "level": 6
+    },
+    {
+      "en": "snowman",
+      "zh": "雪人",
+      "level": 6
+    },
+    {
+      "en": "breakfast",
+      "zh": "早餐",
+      "level": 6
+    },
+    {
+      "en": "lunch",
+      "zh": "午餐",
+      "level": 6
+    },
+    {
+      "en": "dinner",
+      "zh": "晚餐",
+      "level": 6
+    },
+    {
+      "en": "do morning exercises",
+      "zh": "做早操",
+      "level": 6
+    },
+    {
+      "en": "go for a walk",
+      "zh": "散步",
+      "level": 6
+    },
+    {
+      "en": "go shopping",
+      "zh": "去购物",
+      "level": 6
+    },
+    {
+      "en": "when",
+      "zh": "什么时候",
+      "level": 6
+    },
+    {
+      "en": "start",
+      "zh": "开始",
+      "level": 6
+    },
+    {
+      "en": "late",
+      "zh": "迟到的",
+      "level": 6
+    },
+    {
+      "en": "why",
+      "zh": "为什么",
+      "level": 6
+    },
+    {
+      "en": "shop",
+      "zh": "商店",
+      "level": 6
+    },
+    {
+      "en": "work",
+      "zh": "工作",
+      "level": 6
+    },
+    {
+      "en": "sound",
+      "zh": "声音",
+      "level": 6
+    },
+    {
+      "en": "also",
+      "zh": "也",
+      "level": 6
+    },
+    {
+      "en": "busy",
+      "zh": "忙碌的",
+      "level": 6
+    },
+    {
+      "en": "need",
+      "zh": "需要",
+      "level": 6
+    },
+    {
+      "en": "letter",
+      "zh": "信件",
+      "level": 6
+    },
+    {
+      "en": "live",
+      "zh": "居住",
+      "level": 6
+    },
+    {
+      "en": "island",
+      "zh": "岛屿",
+      "level": 6
+    },
+    {
+      "en": "cave",
+      "zh": "山洞",
+      "level": 6
+    },
+    {
+      "en": "win",
+      "zh": "获胜",
+      "level": 6
+    },
+    {
+      "en": "lose",
+      "zh": "失败",
+      "level": 6
+    },
+    {
+      "en": "team",
+      "zh": "队伍",
+      "level": 6
+    },
+    {
+      "en": "player",
+      "zh": "选手",
+      "level": 6
+    },
+    {
+      "en": "match",
+      "zh": "比赛",
+      "level": 6
+    },
+    {
+      "en": "game",
+      "zh": "游戏",
+      "level": 6
+    },
+    {
+      "en": "umbrella",
+      "zh": "雨伞",
+      "level": 6
+    },
+    {
+      "en": "raincoat",
+      "zh": "雨衣",
+      "level": 6
+    },
+    {
+      "en": "glove",
+      "zh": "手套",
+      "level": 6
+    },
+    {
+      "en": "uniform",
+      "zh": "校服",
+      "level": 6
+    },
+    {
+      "en": "key",
+      "zh": "钥匙",
+      "level": 6
+    },
+    {
+      "en": "stamp",
+      "zh": "邮票",
+      "level": 6
+    },
+    {
+      "en": "envelope",
+      "zh": "信封",
+      "level": 6
+    },
+    {
+      "en": "address",
+      "zh": "地址",
+      "level": 6
+    },
+    {
+      "en": "message",
+      "zh": "信息",
+      "level": 6
+    },
+    {
+      "en": "email",
+      "zh": "电子邮件",
+      "level": 6
+    },
+    {
+      "en": "keyboard",
+      "zh": "键盘",
+      "level": 6
+    },
+    {
+      "en": "screen",
+      "zh": "屏幕",
+      "level": 6
+    },
+    {
+      "en": "machine",
+      "zh": "机器",
+      "level": 6
+    },
+    {
+      "en": "invent",
+      "zh": "发明",
+      "level": 6
+    },
+    {
+      "en": "inventor",
+      "zh": "发明家",
+      "level": 6
+    },
+    {
+      "en": "future",
+      "zh": "将来",
+      "level": 6
+    },
+    {
+      "en": "past",
+      "zh": "过去",
+      "level": 6
+    },
+    {
+      "en": "ancient",
+      "zh": "古代的",
+      "level": 6
+    },
+    {
+      "en": "modern",
+      "zh": "现代的",
+      "level": 6
+    },
+    {
+      "en": "traditional",
+      "zh": "传统的",
+      "level": 6
+    },
+    {
+      "en": "lantern",
+      "zh": "灯笼",
+      "level": 6
+    },
+    {
+      "en": "dragon",
+      "zh": "龙",
+      "level": 6
+    },
+    {
+      "en": "dumpling",
+      "zh": "饺子",
+      "level": 6
+    },
+    {
+      "en": "zongzi",
+      "zh": "粽子",
+      "level": 6
+    },
+    {
+      "en": "Spring Festival",
+      "zh": "春节",
+      "level": 6
+    },
+    {
+      "en": "Mid-Autumn Festival",
+      "zh": "中秋节",
+      "level": 6
+    },
+    {
+      "en": "Thanksgiving",
+      "zh": "感恩节",
+      "level": 6
+    },
+    {
+      "en": "Halloween",
+      "zh": "万圣节",
+      "level": 6
+    },
+    {
+      "en": "protect",
+      "zh": "保护",
+      "level": 6
+    },
+    {
+      "en": "pollution",
+      "zh": "污染",
+      "level": 6
+    },
+    {
+      "en": "environment",
+      "zh": "环境",
+      "level": 6
+    },
+    {
+      "en": "recycle",
+      "zh": "回收利用",
+      "level": 6
+    },
+    {
+      "en": "waste",
+      "zh": "浪费",
+      "level": 6
+    },
+    {
+      "en": "rubbish",
+      "zh": "垃圾",
+      "level": 6
+    },
+    {
+      "en": "planet",
+      "zh": "行星",
+      "level": 6
+    },
+    {
+      "en": "astronaut",
+      "zh": "宇航员",
+      "level": 6
+    },
+    {
+      "en": "experiment",
+      "zh": "实验",
+      "level": 6
+    },
+    {
+      "en": "discover",
+      "zh": "发现",
+      "level": 6
+    },
+    {
+      "en": "culture",
+      "zh": "文化",
+      "level": 6
+    },
+    {
+      "en": "history",
+      "zh": "历史",
+      "level": 6
+    },
+    {
+      "en": "geography",
+      "zh": "地理",
+      "level": 6
+    },
+    {
+      "en": "physics",
+      "zh": "物理",
+      "level": 6
+    },
+    {
+      "en": "chemistry",
+      "zh": "化学",
+      "level": 6
+    },
+    {
+      "en": "biology",
+      "zh": "生物",
+      "level": 6
+    },
+    {
+      "en": "maths",
+      "zh": "数学",
+      "level": 6
+    },
+    {
+      "en": "vocabulary",
+      "zh": "词汇",
+      "level": 6
+    },
+    {
+      "en": "sentence",
+      "zh": "句子",
+      "level": 6
+    },
+    {
+      "en": "grammar",
+      "zh": "语法",
+      "level": 6
+    },
+    {
+      "en": "pronunciation",
+      "zh": "发音",
+      "level": 6
+    },
+    {
+      "en": "conversation",
+      "zh": "交谈",
+      "level": 6
+    },
+    {
+      "en": "project",
+      "zh": "课题",
+      "level": 6
+    },
+    {
+      "en": "champion",
+      "zh": "冠军",
+      "level": 6
+    },
+    {
+      "en": "prize",
+      "zh": "奖品",
+      "level": 6
+    },
+    {
+      "en": "audience",
+      "zh": "观众",
+      "level": 6
+    },
+    {
+      "en": "concert",
+      "zh": "音乐会",
+      "level": 6
+    },
+    {
+      "en": "violin",
+      "zh": "小提琴",
+      "level": 6
+    },
+    {
+      "en": "piano",
+      "zh": "钢琴",
+      "level": 6
+    },
+    {
+      "en": "guitar",
+      "zh": "吉他",
+      "level": 6
+    },
+    {
+      "en": "drum",
+      "zh": "鼓",
+      "level": 6
+    },
+    {
+      "en": "artist",
+      "zh": "艺术家",
+      "level": 6
+    },
+    {
+      "en": "musician",
+      "zh": "音乐家",
+      "level": 6
+    },
+    {
+      "en": "writer",
+      "zh": "作家",
+      "level": 6
+    },
+    {
+      "en": "poet",
+      "zh": "诗人",
+      "level": 6
+    },
+    {
+      "en": "novel",
+      "zh": "小说",
+      "level": 6
+    },
+    {
+      "en": "adventure",
+      "zh": "冒险",
+      "level": 6
+    },
+    {
+      "en": "journey",
+      "zh": "旅程",
+      "level": 6
+    },
+    {
+      "en": "passenger",
+      "zh": "乘客",
+      "level": 6
+    },
+    {
+      "en": "tourist",
+      "zh": "游客",
+      "level": 6
+    },
+    {
+      "en": "guide",
+      "zh": "导游",
+      "level": 6
+    },
+    {
+      "en": "map",
+      "zh": "地图",
+      "level": 6
+    },
+    {
+      "en": "north",
+      "zh": "北方",
+      "level": 6
+    },
+    {
+      "en": "south",
+      "zh": "南方",
+      "level": 6
+    },
+    {
+      "en": "east",
+      "zh": "东方",
+      "level": 6
+    },
+    {
+      "en": "west",
+      "zh": "西方",
+      "level": 6
+    },
+    {
+      "en": "bridge",
+      "zh": "桥",
+      "level": 6
+    },
+    {
+      "en": "village",
+      "zh": "村庄",
+      "level": 6
+    },
+    {
+      "en": "capital",
+      "zh": "首都",
+      "level": 6
+    },
+    {
+      "en": "ocean",
+      "zh": "海洋",
+      "level": 6
+    },
+    {
+      "en": "forest",
+      "zh": "森林",
+      "level": 6
+    },
+    {
+      "en": "desert",
+      "zh": "沙漠",
+      "level": 6
+    },
+    {
+      "en": "beach",
+      "zh": "海滩",
+      "level": 6
+    },
+    {
+      "en": "temperature",
+      "zh": "温度",
+      "level": 6
+    },
+    {
+      "en": "forecast",
+      "zh": "天气预报",
+      "level": 6
+    },
+    {
+      "en": "storm",
+      "zh": "暴风雨",
+      "level": 6
+    },
+    {
+      "en": "thunder",
+      "zh": "雷",
+      "level": 6
+    },
+    {
+      "en": "lightning",
+      "zh": "闪电",
+      "level": 6
+    },
+    {
+      "en": "rainbow",
+      "zh": "彩虹",
+      "level": 6
+    },
+    {
+      "en": "fog",
+      "zh": "雾",
+      "level": 6
+    },
+    {
+      "en": "degree",
+      "zh": "度",
+      "level": 6
+    },
+    {
+      "en": "medicine",
+      "zh": "药",
+      "level": 6
+    },
+    {
+      "en": "fever",
+      "zh": "发烧",
+      "level": 6
+    },
+    {
+      "en": "cough",
+      "zh": "咳嗽",
+      "level": 6
+    },
+    {
+      "en": "headache",
+      "zh": "头痛",
+      "level": 6
+    },
+    {
+      "en": "toothache",
+      "zh": "牙痛",
+      "level": 6
+    },
+    {
+      "en": "stomachache",
+      "zh": "胃痛",
+      "level": 6
+    },
+    {
+      "en": "dentist",
+      "zh": "牙医",
+      "level": 6
+    },
+    {
+      "en": "patient",
+      "zh": "病人",
+      "level": 6
+    },
+    {
+      "en": "ambulance",
+      "zh": "救护车",
+      "level": 6
+    },
+    {
+      "en": "calendar",
+      "zh": "日历",
+      "level": 6
+    },
+    {
+      "en": "weekend",
+      "zh": "周末",
+      "level": 6
+    },
+    {
+      "en": "weekday",
+      "zh": "工作日",
+      "level": 6
+    },
+    {
+      "en": "noon",
+      "zh": "中午",
+      "level": 6
+    },
+    {
+      "en": "midnight",
+      "zh": "午夜",
+      "level": 6
+    },
+    {
+      "en": "hour",
+      "zh": "小时",
+      "level": 6
+    },
+    {
+      "en": "minute",
+      "zh": "分钟",
+      "level": 6
+    },
+    {
+      "en": "second",
+      "zh": "秒",
+      "level": 6
+    },
+    {
+      "en": "January",
+      "zh": "一月",
+      "level": 6
+    },
+    {
+      "en": "February",
+      "zh": "二月",
+      "level": 6
+    },
+    {
+      "en": "March",
+      "zh": "三月",
+      "level": 6
+    },
+    {
+      "en": "April",
+      "zh": "四月",
+      "level": 6
+    },
+    {
+      "en": "May",
+      "zh": "五月",
+      "level": 6
+    },
+    {
+      "en": "June",
+      "zh": "六月",
+      "level": 6
+    },
+    {
+      "en": "July",
+      "zh": "七月",
+      "level": 6
+    },
+    {
+      "en": "August",
+      "zh": "八月",
+      "level": 6
+    },
+    {
+      "en": "September",
+      "zh": "九月",
+      "level": 6
+    },
+    {
+      "en": "October",
+      "zh": "十月",
+      "level": 6
+    },
+    {
+      "en": "November",
+      "zh": "十一月",
+      "level": 6
+    },
+    {
+      "en": "December",
+      "zh": "十二月",
+      "level": 6
+    },
+    {
+      "en": "the day before yesterday",
+      "zh": "前天",
+      "level": 6
+    },
+    {
+      "en": "the day after tomorrow",
+      "zh": "后天",
+      "level": 6
+    },
+    {
+      "en": "hundred",
+      "zh": "一百",
+      "level": 6
+    },
+    {
+      "en": "thousand",
+      "zh": "一千",
+      "level": 6
+    },
+    {
+      "en": "million",
+      "zh": "百万",
+      "level": 6
+    },
+    {
+      "en": "quarter",
+      "zh": "四分之一",
+      "level": 6
+    },
+    {
+      "en": "zero",
+      "zh": "零",
+      "level": 6
+    },
+    {
+      "en": "pair",
+      "zh": "一双",
+      "level": 6
+    },
+    {
+      "en": "Canada",
+      "zh": "加拿大",
+      "level": 6
+    },
+    {
+      "en": "Australia",
+      "zh": "澳大利亚",
+      "level": 6
+    },
+    {
+      "en": "England",
+      "zh": "英格兰",
+      "level": 6
+    },
+    {
+      "en": "Britain",
+      "zh": "英国",
+      "level": 6
+    },
+    {
+      "en": "France",
+      "zh": "法国",
+      "level": 6
+    },
+    {
+      "en": "Italy",
+      "zh": "意大利",
+      "level": 6
+    },
+    {
+      "en": "Japan",
+      "zh": "日本",
+      "level": 6
+    },
+    {
+      "en": "Russia",
+      "zh": "俄罗斯",
+      "level": 6
+    },
+    {
+      "en": "India",
+      "zh": "印度",
+      "level": 6
+    },
+    {
+      "en": "Spain",
+      "zh": "西班牙",
+      "level": 6
+    },
+    {
+      "en": "Egypt",
+      "zh": "埃及",
+      "level": 6
+    },
+    {
+      "en": "Brazil",
+      "zh": "巴西",
+      "level": 6
+    },
+    {
+      "en": "New Zealand",
+      "zh": "新西兰",
+      "level": 6
+    },
+    {
+      "en": "Shanghai",
+      "zh": "上海",
+      "level": 6
+    },
+    {
+      "en": "London",
+      "zh": "伦敦",
+      "level": 6
+    },
+    {
+      "en": "New York",
+      "zh": "纽约",
+      "level": 6
+    },
+    {
+      "en": "Sydney",
+      "zh": "悉尼",
+      "level": 6
+    },
+    {
+      "en": "Paris",
+      "zh": "巴黎",
+      "level": 6
+    },
+    {
+      "en": "Tokyo",
+      "zh": "东京",
+      "level": 6
+    },
+    {
+      "en": "Washington",
+      "zh": "华盛顿",
+      "level": 6
+    },
+    {
+      "en": "sandwich",
+      "zh": "三明治",
+      "level": 6
+    },
+    {
+      "en": "salad",
+      "zh": "沙拉",
+      "level": 6
+    },
+    {
+      "en": "hamburger",
+      "zh": "汉堡包",
+      "level": 6
+    },
+    {
+      "en": "ice cream",
+      "zh": "冰淇淋",
+      "level": 6
+    },
+    {
+      "en": "tea",
+      "zh": "茶",
+      "level": 6
+    },
+    {
+      "en": "fresh",
+      "zh": "新鲜的",
+      "level": 6
+    },
+    {
+      "en": "healthy",
+      "zh": "健康的",
+      "level": 6
+    },
+    {
+      "en": "delicious",
+      "zh": "美味的",
+      "level": 6
+    },
+    {
+      "en": "hot",
+      "zh": "热的",
+      "level": 6
+    },
+    {
+      "en": "sweet",
+      "zh": "甜的",
+      "level": 6
+    },
+    {
+      "en": "thirsty",
+      "zh": "口渴的",
+      "level": 6
+    },
+    {
+      "en": "favourite",
+      "zh": "最喜爱的",
+      "level": 6
+    },
+    {
+      "en": "food",
+      "zh": "食物",
+      "level": 6
+    },
+    {
+      "en": "onion",
+      "zh": "洋葱",
+      "level": 6
+    },
+    {
+      "en": "carrot",
+      "zh": "胡萝卜",
+      "level": 6
+    },
+    {
+      "en": "pear",
+      "zh": "梨",
+      "level": 6
+    },
+    {
+      "en": "peach",
+      "zh": "桃子",
+      "level": 6
+    },
+    {
+      "en": "strawberry",
+      "zh": "草莓",
+      "level": 6
+    },
+    {
+      "en": "tomato",
+      "zh": "西红柿",
+      "level": 6
+    },
+    {
+      "en": "potato",
+      "zh": "土豆",
+      "level": 6
+    },
+    {
+      "en": "candy",
+      "zh": "糖果",
+      "level": 6
+    },
+    {
+      "en": "chocolate",
+      "zh": "巧克力",
+      "level": 6
+    },
+    {
+      "en": "beef",
+      "zh": "牛肉",
+      "level": 6
+    },
+    {
+      "en": "pork",
+      "zh": "猪肉",
+      "level": 6
+    },
+    {
+      "en": "mutton",
+      "zh": "羊肉",
+      "level": 6
+    },
+    {
+      "en": "soup",
+      "zh": "汤",
+      "level": 6
+    },
+    {
+      "en": "cake",
+      "zh": "蛋糕",
+      "level": 6
+    },
+    {
+      "en": "cookie",
+      "zh": "饼干",
+      "level": 6
+    },
+    {
+      "en": "juice",
+      "zh": "果汁",
+      "level": 6
+    },
+    {
+      "en": "coffee",
+      "zh": "咖啡",
+      "level": 6
+    },
+    {
+      "en": "hungry",
+      "zh": "饥饿的",
+      "level": 6
+    },
+    {
+      "en": "sour",
+      "zh": "酸的",
+      "level": 6
+    },
+    {
+      "en": "salty",
+      "zh": "咸的",
+      "level": 6
+    },
+    {
+      "en": "whale",
+      "zh": "鲸",
+      "level": 6
+    },
+    {
+      "en": "shark",
+      "zh": "鲨鱼",
+      "level": 6
+    },
+    {
+      "en": "dolphin",
+      "zh": "海豚",
+      "level": 6
+    },
+    {
+      "en": "penguin",
+      "zh": "企鹅",
+      "level": 6
+    },
+    {
+      "en": "kangaroo",
+      "zh": "袋鼠",
+      "level": 6
+    },
+    {
+      "en": "giraffe",
+      "zh": "长颈鹿",
+      "level": 6
+    },
+    {
+      "en": "zebra",
+      "zh": "斑马",
+      "level": 6
+    },
+    {
+      "en": "bear",
+      "zh": "熊",
+      "level": 6
+    },
+    {
+      "en": "wolf",
+      "zh": "狼",
+      "level": 6
+    },
+    {
+      "en": "fox",
+      "zh": "狐狸",
+      "level": 6
+    },
+    {
+      "en": "sheep",
+      "zh": "绵羊",
+      "level": 6
+    },
+    {
+      "en": "cow",
+      "zh": "奶牛",
+      "level": 6
+    },
+    {
+      "en": "horse",
+      "zh": "马",
+      "level": 6
+    },
+    {
+      "en": "pig",
+      "zh": "猪",
+      "level": 6
+    },
+    {
+      "en": "duck",
+      "zh": "鸭子",
+      "level": 6
+    },
+    {
+      "en": "hen",
+      "zh": "母鸡",
+      "level": 6
+    },
+    {
+      "en": "goat",
+      "zh": "山羊",
+      "level": 6
+    },
+    {
+      "en": "bee",
+      "zh": "蜜蜂",
+      "level": 6
+    },
+    {
+      "en": "butterfly",
+      "zh": "蝴蝶",
+      "level": 6
+    },
+    {
+      "en": "snake",
+      "zh": "蛇",
+      "level": 6
+    },
+    {
+      "en": "frog",
+      "zh": "青蛙",
+      "level": 6
+    },
+    {
+      "en": "turtle",
+      "zh": "乌龟",
+      "level": 6
+    },
+    {
+      "en": "camel",
+      "zh": "骆驼",
+      "level": 6
+    },
+    {
+      "en": "squirrel",
+      "zh": "松鼠",
+      "level": 6
+    },
+    {
+      "en": "owl",
+      "zh": "猫头鹰",
+      "level": 6
+    },
+    {
+      "en": "eagle",
+      "zh": "鹰",
+      "level": 6
+    },
+    {
+      "en": "shoulder",
+      "zh": "肩膀",
+      "level": 6
+    },
+    {
+      "en": "knee",
+      "zh": "膝盖",
+      "level": 6
+    },
+    {
+      "en": "finger",
+      "zh": "手指",
+      "level": 6
+    },
+    {
+      "en": "toe",
+      "zh": "脚趾",
+      "level": 6
+    },
+    {
+      "en": "tooth",
+      "zh": "牙齿",
+      "level": 6
+    },
+    {
+      "en": "neck",
+      "zh": "脖子",
+      "level": 6
+    },
+    {
+      "en": "stomach",
+      "zh": "胃",
+      "level": 6
+    },
+    {
+      "en": "back",
+      "zh": "背部",
+      "level": 6
+    },
+    {
+      "en": "heart",
+      "zh": "心脏",
+      "level": 6
+    },
+    {
+      "en": "hair",
+      "zh": "头发",
+      "level": 6
+    },
+    {
+      "en": "tongue",
+      "zh": "舌头",
+      "level": 6
+    },
+    {
+      "en": "subject",
+      "zh": "学科",
+      "level": 6
+    },
+    {
+      "en": "art",
+      "zh": "美术",
+      "level": 6
+    },
+    {
+      "en": "music",
+      "zh": "音乐",
+      "level": 6
+    },
+    {
+      "en": "classmate",
+      "zh": "同学",
+      "level": 6
+    },
+    {
+      "en": "pen",
+      "zh": "钢笔",
+      "level": 6
+    },
+    {
+      "en": "notebook",
+      "zh": "笔记本",
+      "level": 6
+    },
+    {
+      "en": "textbook",
+      "zh": "课本",
+      "level": 6
+    },
+    {
+      "en": "blackboard",
+      "zh": "黑板",
+      "level": 6
+    },
+    {
+      "en": "playground",
+      "zh": "操场",
+      "level": 6
+    },
+    {
+      "en": "exam",
+      "zh": "考试",
+      "level": 6
+    },
+    {
+      "en": "score",
+      "zh": "分数",
+      "level": 6
+    },
+    {
+      "en": "question",
+      "zh": "问题",
+      "level": 6
+    },
+    {
+      "en": "answer",
+      "zh": "答案",
+      "level": 6
+    },
+    {
+      "en": "grade",
+      "zh": "年级",
+      "level": 6
+    },
+    {
+      "en": "primary school",
+      "zh": "小学",
+      "level": 6
+    },
+    {
+      "en": "middle school",
+      "zh": "中学",
+      "level": 6
+    },
+    {
+      "en": "expensive",
+      "zh": "昂贵的",
+      "level": 6
+    },
+    {
+      "en": "cheap",
+      "zh": "便宜的",
+      "level": 6
+    },
+    {
+      "en": "famous",
+      "zh": "著名的",
+      "level": 6
+    },
+    {
+      "en": "popular",
+      "zh": "受欢迎的",
+      "level": 6
+    },
+    {
+      "en": "special",
+      "zh": "特别的",
+      "level": 6
+    },
+    {
+      "en": "wonderful",
+      "zh": "极好的",
+      "level": 6
+    },
+    {
+      "en": "excellent",
+      "zh": "优秀的",
+      "level": 6
+    },
+    {
+      "en": "terrible",
+      "zh": "很糟的",
+      "level": 6
+    },
+    {
+      "en": "dangerous",
+      "zh": "危险的",
+      "level": 6
+    },
+    {
+      "en": "safe",
+      "zh": "安全的",
+      "level": 6
+    },
+    {
+      "en": "useful",
+      "zh": "有用的",
+      "level": 6
+    },
+    {
+      "en": "comfortable",
+      "zh": "舒适的",
+      "level": 6
+    },
+    {
+      "en": "necessary",
+      "zh": "必需的",
+      "level": 6
+    },
+    {
+      "en": "same",
+      "zh": "相同的",
+      "level": 6
+    },
+    {
+      "en": "correct",
+      "zh": "正确的",
+      "level": 6
+    },
+    {
+      "en": "excited",
+      "zh": "兴奋的",
+      "level": 6
+    },
+    {
+      "en": "proud",
+      "zh": "自豪的",
+      "level": 6
+    },
+    {
+      "en": "lonely",
+      "zh": "孤独的",
+      "level": 6
+    },
+    {
+      "en": "bored",
+      "zh": "无聊的",
+      "level": 6
+    },
+    {
+      "en": "surprised",
+      "zh": "惊讶的",
+      "level": 6
+    },
+    {
+      "en": "friendly",
+      "zh": "和善的",
+      "level": 6
+    },
+    {
+      "en": "honest",
+      "zh": "诚实的",
+      "level": 6
+    },
+    {
+      "en": "careful",
+      "zh": "细心的",
+      "level": 6
+    },
+    {
+      "en": "careless",
+      "zh": "粗心的",
+      "level": 6
+    },
+    {
+      "en": "lazy",
+      "zh": "懒惰的",
+      "level": 6
+    },
+    {
+      "en": "serious",
+      "zh": "严肃的",
+      "level": 6
+    },
+    {
+      "en": "generous",
+      "zh": "慷慨的",
+      "level": 6
+    },
+    {
+      "en": "creative",
+      "zh": "有创造力的",
+      "level": 6
+    },
+    {
+      "en": "confident",
+      "zh": "自信的",
+      "level": 6
+    },
+    {
+      "en": "nervous",
+      "zh": "紧张的",
+      "level": 6
+    },
+    {
+      "en": "borrow",
+      "zh": "借入",
+      "level": 6
+    },
+    {
+      "en": "lend",
+      "zh": "借出",
+      "level": 6
+    },
+    {
+      "en": "return",
+      "zh": "归还",
+      "level": 6
+    },
+    {
+      "en": "remember",
+      "zh": "记得",
+      "level": 6
+    },
+    {
+      "en": "forget",
+      "zh": "忘记",
+      "level": 6
+    },
+    {
+      "en": "decide",
+      "zh": "决定",
+      "level": 6
+    },
+    {
+      "en": "prepare",
+      "zh": "准备",
+      "level": 6
+    },
+    {
+      "en": "practice",
+      "zh": "练习",
+      "level": 6
+    },
+    {
+      "en": "collect",
+      "zh": "收集",
+      "level": 6
+    },
+    {
+      "en": "invite",
+      "zh": "邀请",
+      "level": 6
+    },
+    {
+      "en": "arrive",
+      "zh": "到达",
+      "level": 6
+    },
+    {
+      "en": "leave",
+      "zh": "离开",
+      "level": 6
+    },
+    {
+      "en": "miss",
+      "zh": "想念",
+      "level": 6
+    },
+    {
+      "en": "bring",
+      "zh": "带来",
+      "level": 6
+    },
+    {
+      "en": "carry",
+      "zh": "搬运",
+      "level": 6
+    },
+    {
+      "en": "send",
+      "zh": "寄出",
+      "level": 6
+    },
+    {
+      "en": "receive",
+      "zh": "收到",
+      "level": 6
+    },
+    {
+      "en": "choose",
+      "zh": "选择",
+      "level": 6
+    },
+    {
+      "en": "change",
+      "zh": "改变",
+      "level": 6
+    },
+    {
+      "en": "build",
+      "zh": "建造",
+      "level": 6
+    },
+    {
+      "en": "grow",
+      "zh": "生长",
+      "level": 6
+    },
+    {
+      "en": "compare",
+      "zh": "比较",
+      "level": 6
+    },
+    {
+      "en": "describe",
+      "zh": "描写",
+      "level": 6
+    },
+    {
+      "en": "explain",
+      "zh": "解释",
+      "level": 6
+    },
+    {
+      "en": "discuss",
+      "zh": "讨论",
+      "level": 6
+    },
+    {
+      "en": "agree",
+      "zh": "同意",
+      "level": 6
+    },
+    {
+      "en": "disagree",
+      "zh": "不同意",
+      "level": 6
+    },
+    {
+      "en": "believe",
+      "zh": "相信",
+      "level": 6
+    },
+    {
+      "en": "understand",
+      "zh": "理解",
+      "level": 6
+    },
+    {
+      "en": "imagine",
+      "zh": "想象",
+      "level": 6
+    },
+    {
+      "en": "suggest",
+      "zh": "建议",
+      "level": 6
+    },
+    {
+      "en": "advice",
+      "zh": "忠告",
+      "level": 6
+    },
+    {
+      "en": "sell",
+      "zh": "出售",
+      "level": 6
+    },
+    {
+      "en": "drive",
+      "zh": "驾驶",
+      "level": 6
+    },
+    {
+      "en": "fly",
+      "zh": "飞行",
+      "level": 6
+    },
+    {
+      "en": "climb",
+      "zh": "攀登",
+      "level": 6
+    },
+    {
+      "en": "cook",
+      "zh": "做饭",
+      "level": 6
+    },
+    {
+      "en": "get up",
+      "zh": "起床",
+      "level": 6
+    },
+    {
+      "en": "go to bed",
+      "zh": "去睡觉",
+      "level": 6
+    },
+    {
+      "en": "go to school",
+      "zh": "去上学",
+      "level": 6
+    },
+    {
+      "en": "put on",
+      "zh": "穿上",
+      "level": 6
+    },
+    {
+      "en": "take off",
+      "zh": "脱下",
+      "level": 6
+    },
+    {
+      "en": "turn on",
+      "zh": "打开",
+      "level": 6
+    },
+    {
+      "en": "turn off",
+      "zh": "关掉",
+      "level": 6
+    },
+    {
+      "en": "look for",
+      "zh": "寻找",
+      "level": 6
+    },
+    {
+      "en": "look after",
+      "zh": "照料",
+      "level": 6
+    },
+    {
+      "en": "find out",
+      "zh": "查明",
+      "level": 6
+    },
+    {
+      "en": "pick up",
+      "zh": "捡起",
+      "level": 6
+    },
+    {
+      "en": "give up",
+      "zh": "放弃",
+      "level": 6
+    },
+    {
+      "en": "come from",
+      "zh": "来自",
+      "level": 6
+    },
+    {
+      "en": "next to",
+      "zh": "紧挨着",
+      "level": 6
+    },
+    {
+      "en": "in front of",
+      "zh": "在前面",
+      "level": 6
+    },
+    {
+      "en": "behind",
+      "zh": "在后面",
+      "level": 6
+    },
+    {
+      "en": "above",
+      "zh": "在上方",
+      "level": 6
+    },
+    {
+      "en": "under",
+      "zh": "在下面",
+      "level": 6
+    },
+    {
+      "en": "near",
+      "zh": "在附近",
+      "level": 6
+    },
+    {
+      "en": "across",
+      "zh": "横穿",
+      "level": 6
+    },
+    {
+      "en": "along",
+      "zh": "沿着",
+      "level": 6
+    },
+    {
+      "en": "around",
+      "zh": "在周围",
+      "level": 6
+    },
+    {
+      "en": "through",
+      "zh": "穿过",
+      "level": 6
+    },
+    {
+      "en": "into",
+      "zh": "到里面",
+      "level": 6
+    },
+    {
+      "en": "almost",
+      "zh": "几乎",
+      "level": 6
+    },
+    {
+      "en": "already",
+      "zh": "已经",
+      "level": 6
+    },
+    {
+      "en": "still",
+      "zh": "仍然",
+      "level": 6
+    },
+    {
+      "en": "once",
+      "zh": "一次",
+      "level": 6
+    },
+    {
+      "en": "twice",
+      "zh": "两次",
+      "level": 6
+    },
+    {
+      "en": "again",
+      "zh": "又一次",
+      "level": 6
+    },
+    {
+      "en": "alone",
+      "zh": "独自",
+      "level": 6
+    },
+    {
+      "en": "suddenly",
+      "zh": "突然",
+      "level": 6
+    },
+    {
+      "en": "finally",
+      "zh": "最后",
+      "level": 6
+    },
+    {
+      "en": "carefully",
+      "zh": "认真地",
+      "level": 6
+    },
+    {
+      "en": "quietly",
+      "zh": "悄悄地",
+      "level": 6
+    },
+    {
+      "en": "loudly",
+      "zh": "大声地",
+      "level": 6
+    },
+    {
+      "en": "slowly",
+      "zh": "缓慢地",
+      "level": 6
+    },
+    {
+      "en": "happily",
+      "zh": "高兴地",
+      "level": 6
+    },
+    {
+      "en": "easily",
+      "zh": "容易地",
+      "level": 6
+    },
+    {
+      "en": "enough",
+      "zh": "足够的",
+      "level": 6
+    },
+    {
+      "en": "several",
+      "zh": "几个",
+      "level": 6
+    },
+    {
+      "en": "another",
+      "zh": "另一个",
+      "level": 6
+    },
+    {
+      "en": "other",
+      "zh": "其他的",
+      "level": 6
+    },
+    {
+      "en": "each",
+      "zh": "各个",
+      "level": 6
+    },
+    {
+      "en": "every",
+      "zh": "每一个",
+      "level": 6
+    },
+    {
+      "en": "all",
+      "zh": "全部",
+      "level": 6
+    },
+    {
+      "en": "none",
+      "zh": "一个也没有",
+      "level": 6
+    },
+    {
+      "en": "many",
+      "zh": "许多",
+      "level": 6
+    },
+    {
+      "en": "much",
+      "zh": "很多",
+      "level": 6
+    },
+    {
+      "en": "few",
+      "zh": "很少的",
+      "level": 6
+    },
+    {
+      "en": "high",
+      "zh": "高处",
+      "level": 6
+    },
+    {
+      "en": "plant",
+      "zh": "植物",
+      "level": 6
+    },
+    {
+      "en": "bottle",
+      "zh": "瓶子",
+      "level": 6
+    },
+    {
+      "en": "photo",
+      "zh": "照片",
+      "level": 6
+    },
+    {
+      "en": "mountain",
+      "zh": "高山",
+      "level": 6
+    },
+    {
+      "en": "river",
+      "zh": "河流",
+      "level": 6
+    },
+    {
+      "en": "lake",
+      "zh": "湖泊",
+      "level": 6
+    },
+    {
+      "en": "hill",
+      "zh": "小山",
+      "level": 6
+    },
+    {
+      "en": "tree",
+      "zh": "树",
+      "level": 6
+    },
+    {
+      "en": "building",
+      "zh": "楼房",
+      "level": 6
+    },
+    {
+      "en": "house",
+      "zh": "房屋",
+      "level": 6
+    },
+    {
+      "en": "nature",
+      "zh": "大自然",
+      "level": 6
+    },
+    {
+      "en": "boating",
+      "zh": "划船",
+      "level": 6
+    },
+    {
+      "en": "factory worker",
+      "zh": "工厂工人",
+      "level": 6
+    },
+    {
+      "en": "police station",
+      "zh": "警察局",
+      "level": 6
+    }
+  ]
+}
